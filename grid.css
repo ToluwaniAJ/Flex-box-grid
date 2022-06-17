@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(41, 1, 41);
+  height: 100vh;
+  display: flex;
+  place-items: center;
+}
+
+main {
+  display: grid;
+  grid-template-areas:
+    "a a a b"
+    "a a a b"
+    "c c d d"
+    "c c e e";
+  gap: 10px;
+  width: 50%;
+  margin: auto;
+  height: 80vh;
+}
+
+main div {
+  padding: 2em;
+  text-align: center;
+}
+
+.box1 {
+  background-color: orangered;
+  grid-area: a;
+}
+
+.box2 {
+  background-color: yellow;
+  grid-area: b;
+}
+
+.box3 {
+  background-color: rgb(12, 238, 12);
+  grid-area: c;
+}
+
+.box4 {
+  background-color: rgb(0, 191, 255);
+  grid-area: d;
+}
+
+.box5 {
+  background-color: rgb(0, 191, 255);
+  grid-area: e;
+}
+
+.Flex {
+  background-color: rgb(41, 1, 41);
+  color: white;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Grid {
+  background-color: rgb(41, 1, 41);
+  color: white;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  width: 60%;
+  overflow: auto;
+}
+
+.nav a {
+  padding: 12px;
+  color: white;
+  font-size: 17px;
+  width: 60%;
+}
+
+.nav a:hover {
+  background-color: brown;
+}
+
+.linav {
+  align-items: center;
+}
